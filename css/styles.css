@@ -515,7 +515,7 @@ body {
 }
 
 .footer-left-side {
-    /* margin-right: 40px; */
+    margin-right: 120px;
 }
 
 .footer .logo {
@@ -530,8 +530,7 @@ body {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    /* gap: 80px; */
+    align-items: baseline;
 }
 
 .social-title {
@@ -540,6 +539,11 @@ body {
     line-height: calc(24 / 16);
 
     margin-bottom: 16px;
+}
+
+.footer .team-social {
+    gap: 16px;
+    margin-right: 80px;
 }
 
 .team-social-item-dark a {
@@ -565,10 +569,6 @@ body {
     margin-top: 16px;
     gap: 24px;
 }
-
-/* .subscribe-form-title {
-    font-size: 18px;
-} */
 
 .subscribe-form-input {
     width: 264px;
@@ -640,7 +640,10 @@ body {
     left: 50%;
     transform:  translate(-50%, -50%);
 
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
+    /* padding-bottom: 24px;
+    padding-right: 24px;
+    padding-left: 24px; */
 
 
     background-color: var(--modal-bg);
@@ -699,7 +702,6 @@ body {
 
 .modal-title {
     display: block;
-    margin-top: 48px;
     margin-bottom: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
